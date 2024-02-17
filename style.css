@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+hr {
+    border: none; /* Remove the solid border */
+    height: 4px; /* Set the height as the thickness */
+    width:100%;
+    margin: auto;
+    background: linear-gradient(to right, rgb(100, 1, 1),rgb(255, 0, 0),rgb(144, 140, 140), rgb(235, 0, 0),rgb(100, 1, 1)); 
+    /* background: linear-gradient(to right, #ff0000, #2c2b2b, #ff0000); */
+}
+body{
+    background: black;
+    color: white;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/header-image.png);
+    background-size: cover;
+    background-position: center ;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+nav img{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: red;
+    color: white;
+    padding: 7px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+nav button:hover{
+    background: rgb(175, 5, 5);
+}
+.lang-btn{
+    background: transparent;
+    border:1px solid white;
+    width: 140px;
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 10px;
+
+}
+.lang-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+.lang-btn i{
+    margin-right: 10px;
+}
+.lang-btn {
+    position: relative;
+}
+.header-content{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.header-content h1{
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+.header-content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.header-content p{
+    margin: 20px;
+}
+.email-signup{
+    /* background: transparent; */
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email-signup input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    padding: 13px 30px;
+    border: 1px solid white;
+    border-radius: 2px;
+    margin: 5px;
+    color: white;
+}
+.email-signup button{
+    background:red;
+    border: 0;
+    outline: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 8px 30px;
+    border-radius: 2px;
+    margin: 5px;
+    transition: background 0.3s ease;
+}
+.email-signup button:hover{
+    background: rgb(175, 5, 5);
+}
+
+/* -----------Features---------------- */
+
+.features{
+    padding: 5px 12%;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.features h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* -----------FAQ----------- */
+.faq{
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 18px;
+    margin: 40px;
+    
+}
+.faq h2{
+    font-weight: 700;
+    font-size: 50px;
+}
+.question{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.question li{
+    list-style:none;
+    width: 100%;
+    padding: 5px;
+}
+.question li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.5s ease;
+}
+.question li label:hover{
+    background:#252525
+}
+label::after{
+    content: '+';
+    font-size: 40px;
+    right: 20px;
+    position: absolute;
+    transition :transform 0.3s ease;
+
+}
+input[type="radio"]{
+    display: none;
+}
+.question .content{
+    background: #252525;
+    padding:0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s,padding 0.3s ;
+}
+.question input[type="radio"]:checked+label+.content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.question input[type="radio"]:checked+label::after{
+    transform: rotate(135deg);
+}
+
+.faq .email-signup{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+.faq small{
+    font-size: 18px;
+}
+
+/* ------------footer----------- */
+.footer{
+    padding: 50px 15% 10px;
+    color: #777;
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color:#777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+.footer button{
+    color: #777;
+    margin: 20px 10px 20px 0  ;
+    background: transparent;
+    border:1px solid white;
+    border-radius: 4px;
+    width: 140px;
+}
+.footer p{
+    color: #777;
+    font-size: 17px;
+}

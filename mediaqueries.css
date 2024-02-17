@@ -1,0 +1,256 @@
+@media only screen and (max-width:1006px)
+{
+    .header-content h1{
+        font-size: 35px;
+        line-height: 72px;
+    }
+    .email-signup button{
+        padding: 5px 8px;
+    }
+    
+
+}
+@media only screen and (max-width:900px)
+{
+    .header-content h1{
+        font-size: 32px;
+        line-height: 70px;
+    }
+    .header-content h3{
+        font-size: 20px;
+    }
+    .logo{
+        width: 100px;
+    }
+    nav button{
+        padding: 5px 10px;
+    }
+    nav .lang-btn{
+        padding: 4px 8px;
+        width: 130px;
+    }
+    .email-signup button{
+        padding: 3px 5px;
+        font-size: 18px;
+    }
+    .email-signup input{
+        padding: 5px 8px;
+    }
+    .features h2{
+        font-size: 38px;
+    }
+    .faq p{
+        font-size: 30px;
+    }
+    .question li label{
+        padding: 18px;
+    }
+
+}
+
+@media only screen and (max-width:725px)
+{
+    .header-content h1{
+        font-size: 24px;
+        line-height: 65px;
+    }
+    .header-content h3{
+        font-size: 12px;
+    }
+    .logo{
+        width: 75px;
+    }
+    nav button{
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    nav .lang-btn{
+        padding: 4px 8px;
+        width: 120px;
+    }
+    .email-signup button{
+        padding: 2px 4px;
+        font-size: 15px;
+    }
+    .email-signup input{
+        padding: 2px 4px;
+    }
+    .features h2{
+        font-size: 34px;
+    }
+    .features p{
+        font-size: 20px;
+    }
+    .faq p{
+        font-size: 30px;
+    }
+    .faq h2{
+        font-size: 35px;
+    }
+    .question li label{
+        padding: 15px;
+    }
+
+}
+@media only screen and (max-width:615px)
+{
+    .header-content h1{
+        font-size: 20px;
+        line-height: 60px;
+    }
+    .header-content h3{
+        font-size: 10px;
+    }
+    .logo{
+        width: 70px;
+    }
+    nav button{
+        padding: 4px 8px;
+        font-size: 12px;
+    }
+    nav .lang-btn{
+        padding: 3px 6px;
+        width: 100px;
+    }
+    .email-signup button{
+        padding: 2px 4px;
+        font-size: 11px;
+    }
+    .faq .email-signup button{
+        padding: 2px 4px;
+        font-size: 8px;
+    }
+    .email-signup input{
+        padding: 2px 4px;
+    }
+    .features h2{
+        font-size: 30px;
+    }
+    .features p{
+        font-size: 18px;
+    }
+    .faq h2{
+        font-size: 30px;
+    }
+    .question li label{
+        padding: 12px;
+        font-size: 18px;
+    }
+     .content p{
+        font-size:18px;
+    }
+
+}
+@media only screen and (max-width:365px)
+{
+    .header-content h1{
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .header-content h3{
+        font-size: 7px;
+    }
+    .logo{
+        width: 60px;
+    }
+    nav button{
+        padding: 3px 6px;
+        font-size: 10px;
+    }
+    nav .lang-btn{
+        padding: 2px 4px;
+        width: 90px;
+    }
+    .email-signup button{
+        padding: 2px 4px;
+        font-size: 8px;
+    }
+    .faq .email-signup button{
+        padding: 2px 4px;
+        font-size: 8px;
+    }
+    .email-signup input{
+        padding: 2px 4px;
+    }
+    .features h2{
+        font-size: 25px;
+    }
+    /* hr{
+        visibility: hidden;
+    } */
+    .features p{
+        font-size: 14px;
+    }
+    .faq h2{
+        font-size: 25px;
+    }
+    .question li label{
+        padding: 7px;
+        font-size: 15px;
+    }
+     .content p{
+        font-size:15px;
+    }
+
+}
+@media only screen and (max-width:330px)
+{
+    .header-content h1{
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .header-content h3{
+        font-size: 7px;
+    }
+    .logo{
+        width: 60px;
+    }
+    nav button{
+        padding: 3px 6px;
+        font-size: 8px;
+    }
+    nav .lang-btn{
+        padding: 2px 4px;
+        width: 85px;
+    }
+    .email-signup button{
+        padding: 2px 4px;
+        font-size: 8px;
+    }
+    .faq  .email-signup button{
+        padding: 2px 4px;
+        font-size: 8px;
+    }
+    .email-signup input{
+        padding: 2px 4px;
+    }
+    .faq .email-signup input{
+        padding: 2px 4px;
+    }
+    .features p{
+        font-size: 10px;
+    }
+    .features h2{
+        font-size: 25px;
+    }
+    .faq h2{
+        font-size: 22px;
+    }
+    .question li label{
+        padding: 5px;
+        font-size: 11px;
+    }
+     .content p{
+        font-size:11px;
+    }
+    /* hr{
+        visibility: hidden;
+    } */
+
+}
+@media only screen and (max-width:450px)
+{
+    label .content{
+        visibility: hidden;
+    }
+}
